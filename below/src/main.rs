@@ -14,6 +14,7 @@
 
 #![recursion_limit = "256"]
 
+use signals::handle_signals;
 use std::cell::RefCell;
 use std::fs;
 use std::io;
